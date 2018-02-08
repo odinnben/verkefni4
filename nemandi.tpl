@@ -2,7 +2,7 @@
 <head>
     <title>verkefni 4</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet" href="/css/verkefni4.css">
 </head>
 <body>
 

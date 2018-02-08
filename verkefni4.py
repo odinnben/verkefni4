@@ -13,9 +13,9 @@ def index():
 def nemandi(kt):
     return template('nemandi', kt=kt , bekkur=bekkur)
 
-@route('/static/<filename>')
+@route('/css/<filename>')
 def server_static(filename):
-    return static_file(filename, root ='./static_files')
+    return static_file(filename, root ='./css')
 
 @error(404)
 @error(500)
@@ -24,4 +24,4 @@ def error404(error):
 
 
 
-run()
+run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))

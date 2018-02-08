@@ -2,7 +2,7 @@ import os
 import json
 from bottle import route,run,template,static_file,error
 
-with open('class.json','r',encoding='utf-8') as f:
+with open('bekkur.json','r',encoding='utf-8') as f:
     bekkur = json.load(f)
 
 @route('/')
